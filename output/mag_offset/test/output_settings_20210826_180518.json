@@ -1,0 +1,172 @@
+{
+    "base": [
+        {
+            "name": "nominal",
+            "description": "LVLH (2), Landmark Pointing RF (4), Sunpointing RF (6) by euler_angle [rad]",
+            "offset": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "rotation": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "sband": [
+        {
+            "name": "SR2000",
+            "description": "SDR",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ],
+            "offset1": [
+                0,
+                0,
+                0
+            ],
+            "offset2": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "SR2000-S",
+            "description": "Additional load for SDR for Sband",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ],
+            "offset1": [
+                0,
+                0,
+                0
+            ],
+            "offset2": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "ANT2150",
+            "description": "Antenna for Sband",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ],
+            "offset1": [
+                0,
+                0,
+                0
+            ],
+            "offset2": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "xband": [
+        {
+            "name": "SR2000",
+            "description": "SDR",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ]
+        },
+        {
+            "name": "PDU3",
+            "description": "Power distribution unit #3",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ]
+        },
+        {
+            "name": "XAFE1",
+            "description": "Antenna for Xband",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ]
+        },
+        {
+            "name": "XAFE2",
+            "description": "Antenna for Xband",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ]
+        },
+        {
+            "name": "SR2000-X",
+            "description": "Additional load for SDR for Xband",
+            "t_on": 1630001258,
+            "t_off": 1630001416,
+            "dt": [
+                3,
+                10,
+                5
+            ],
+            "offset1": [
+                5.462431959879098,
+                -6.913426809720477,
+                -1.4222084741176673
+            ],
+            "offset2": [
+                9.819159883494379,
+                -8.124220090427173,
+                -0.9424945251476515
+            ]
+        },
+        {
+            "name": "TX",
+            "description": "Transmission",
+            "t_on": 0,
+            "t_off": 0,
+            "dt": [
+                3,
+                7,
+                5
+            ]
+        }
+    ]
+}

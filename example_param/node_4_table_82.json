@@ -1,0 +1,334 @@
+[
+    {
+        "node": 4,
+        "satellite": 0,
+        "name": "sensor_a3200",
+        "parameters": [
+            {
+                "type": "float",
+                "name": "mag_offset",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "mag_scale",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "mag_rotation",
+                "value": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "array_size": 9
+            },
+            {
+                "type": "float",
+                "name": "mag_rot_t",
+                "value": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "array_size": 9
+            },
+            {
+                "type": "float",
+                "name": "mag_max",
+                "value": 600.0
+            },
+            {
+                "type": "uint8",
+                "name": "mag_axis",
+                "value": [
+                    0,
+                    1,
+                    2
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "mag_sign",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "mag_gain",
+                "value": 1
+            },
+            {
+                "type": "uint8",
+                "name": "mag_enable",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "gyro_scale",
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "gyro_offset",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "gyro_temp",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "uint8",
+                "name": "gyro_axis",
+                "value": [
+                    0,
+                    1,
+                    2
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "gyro_sign",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "gyro_enable",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "data",
+                "name": "_filler_end",
+                "value": "000000"
+            }
+        ],
+        "id": 82,
+        "store": "adcs-persistent"
+    },
+    {
+        "node": 4,
+        "satellite": 0,
+        "name": "sensor_a3200",
+        "parameters": [
+            {
+                "type": "float",
+                "name": "mag_offset",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "mag_scale",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "mag_rotation",
+                "value": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "array_size": 9
+            },
+            {
+                "type": "float",
+                "name": "mag_rot_t",
+                "value": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "array_size": 9
+            },
+            {
+                "type": "float",
+                "name": "mag_max",
+                "value": 600.0
+            },
+            {
+                "type": "uint8",
+                "name": "mag_axis",
+                "value": [
+                    0,
+                    1,
+                    2
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "mag_sign",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "mag_gain",
+                "value": 1
+            },
+            {
+                "type": "uint8",
+                "name": "mag_enable",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "gyro_scale",
+                "value": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "gyro_offset",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "gyro_temp",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "uint8",
+                "name": "gyro_axis",
+                "value": [
+                    0,
+                    1,
+                    2
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "gyro_sign",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "gyro_enable",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "data",
+                "name": "_filler_end",
+                "value": "000000"
+            }
+        ],
+        "id": 82,
+        "store": "adcs-protected"
+    }
+]

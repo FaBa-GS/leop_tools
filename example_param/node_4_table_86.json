@@ -1,0 +1,113 @@
+[
+    {
+        "node": 4,
+        "satellite": 0,
+        "name": "sensor_extmag",
+        "parameters": [
+            {
+                "type": "float",
+                "name": "offset",
+                "value": [
+                    0,
+                    0,
+                    0
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "scale",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "float",
+                "name": "rotation",
+                "value": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "array_size": 9
+            },
+            {
+                "type": "float",
+                "name": "rot_trans",
+                "value": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "array_size": 9
+            },
+            {
+                "type": "float",
+                "name": "max",
+                "value": 600.0
+            },
+            {
+                "type": "uint8",
+                "name": "axis",
+                "value": [
+                    0,
+                    1,
+                    2
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "sign",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "uint8",
+                "name": "enable",
+                "value": [
+                    1,
+                    1,
+                    1
+                ],
+                "array_size": 3
+            },
+            {
+                "type": "int8",
+                "name": "gain",
+                "value": 1
+            },
+            {
+                "type": "uint8",
+                "name": "addr",
+                "value": 32
+            },
+            {
+                "type": "uint8",
+                "name": "temp_addr",
+                "value": 72
+            }
+        ],
+        "id": 86,
+        "store": "adcs-persistent"
+    }
+]

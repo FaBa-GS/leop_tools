@@ -1,0 +1,56 @@
+{
+    "nominal": [
+        {
+            "name": "MODE",
+            "description": "LVLH (2), Landmark Pointing RF (4), Sunpointing RF (6) by euler_offset [rad]",
+            "unit": "euler_offset [rad,rad,rad], location [m,m,m]",
+            "mode" : 2,
+            "euler_offset": [
+                0,
+                0,
+                0
+            ],
+            "location": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "BASE",
+            "description": "Magnetometer offset w/ no payloads powered",
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "calibration":[
+        {
+            "name": "MODE",
+            "description": "LVLH (2), Landmark Pointing RF (4), Sunpointing RF (6) by euler_offset [rad]",
+            "unit": "euler_offset [rad,rad,rad], location [m,m,m]",
+            "mode" : 2,
+            "euler_offset": [
+                0,
+                0,
+                0
+            ],
+            "location": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "STARTRACKER",
+            "description": "Startracker power info, enable flag, and quaternion (ST->SC)",
+            "power_node": 10,
+            "power_chan": 0,
+            "enable_st" : 1, 
+            "str_q" : [0,0,0,1]
+        }
+
+    ]
+}

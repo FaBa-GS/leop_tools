@@ -1,0 +1,22 @@
+{
+  "parameters": [
+    {
+      "node": 4,
+      "satellite" :1,
+      "columns": [
+        {"mag": {"count": 3}},
+        {"extmag": {"count": 3}},
+        {"gyro": {"count": 3}},
+        {"gyro_temp": {}},
+        {"extgyro": {"count": 3}},
+        {"fss_raw": {"count": 24}},
+        {"st_raw": {"count": 4}},
+        {"st_valid": {"count": 4}},
+        {"status_str": {}},
+        {"ephem_suneci": {"count": 3}},
+        {"ephem_mageci":{"count": 3}}
+      ]
+    }
+  ]
+}
+

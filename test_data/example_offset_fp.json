@@ -1,0 +1,166 @@
+{
+    "nominal": [
+        {
+            "name": "MODE",
+            "description": "LVLH (2), Landmark Pointing RF (4), Sunpointing RF (6) by euler_offset [rad]",
+            "unit": "euler_offset [rad,rad,rad], location [m,m,m]",
+            "mode" : 2,
+            "euler_offset": [
+                0,
+                0,
+                0
+            ],
+            "location": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "BASE",
+            "description": "Magnetometer offset w/ no payloads powered",
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "sband": [
+        {
+            "name": "MODE",
+            "description": "LVLH (2), Landmark Pointing RF (4), Sunpointing RF (6) by euler_offset [rad]",
+            "unit": "euler_offset [rad,rad,rad], location [m,m,m]",
+            "mode" : 4,
+            "euler_offset": [
+                0,
+                0,
+                0
+            ],
+            "location": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "SR2000",
+            "description": "SDR for Sband",
+            "node": 2,
+            "power_node": 9,
+            "power_chan": 6,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "ANT2150",
+            "description": "Power on antenna for Sband",
+            "power_node": 9,
+            "power_chan": 1,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "SR2000-LOAD",
+            "description": "gscript for Sband on SR2000",
+            "power_node": 0,
+            "power_chan": 0,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        }
+    ],
+    "xband": [
+        {
+            "name": "MODE",
+            "description": "LVLH (2), Landmark Pointing RF (4), Sunpointing RF (6) by euler_offset [rad]",
+            "unit": "euler_offset [rad,rad,rad], location [m,m,m]",
+            "mode" : 4,
+            "euler_offset": [
+                0,
+                0,
+                0
+            ],
+            "location": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "SR2000",
+            "description": "SDR, first node for sr2000, second node is node for xband",
+            "node": [2,17],
+            "power_node": 9,
+            "power_chan": 6,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "PDU3",
+            "description": "Power distribution unit #3",
+            "power_node": 8,
+            "power_chan": 3,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "XAFE1",
+            "description": "Antenna for Xband",
+            "power_node": 6,
+            "power_chan": 5,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "XAFE2",
+            "description": "Antenna for Xband",
+            "power_node": 6,
+            "power_chan": 6,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "SR2000-LOAD",
+            "description": "Additional load for SDR for Xband",
+            "power_node": 0,
+            "power_chan": 0,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "TX",
+            "description": "Transmission",
+            "power_node": 0,
+            "power_chan": 0,
+            "offset": [
+                0,
+                0,
+                0
+            ]
+        }
+    ]
+}

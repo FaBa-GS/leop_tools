@@ -1,0 +1,46 @@
+[
+    {
+        "node": 4,
+        "satellite": 0,
+        "id": 70,
+        "name": "sensor_common",
+        "parameters": [
+            {
+                "name": "fss_num",
+                "value": 6,
+                "type": "uint8"
+            },
+            {
+                "name": "fss_darkth",
+                "value": 7000.0,
+                "type": "float"
+            },
+            {
+                "name": "fss_idarkth",
+                "value": 500.0,
+                "type": "float"
+            },
+            {
+                "name": "fss_brightth",
+                "value": 8000.0,
+                "type": "float"
+            },
+            {
+                "name": "en_gps",
+                "value": 0,
+                "type": "bool"
+            },
+            {
+                "name": "en_gps_tsync",
+                "value": 0,
+                "type": "bool"
+            },
+            {
+                "name": "en_gps_varf",
+                "value": 0,
+                "type": "bool"
+            }
+        ],
+        "store": "adcs-persistent"
+    }
+]
