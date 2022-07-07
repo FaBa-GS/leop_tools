@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 
     acs_mode = 4
-    euler_offset = np.array([1.5708, 0, -1.5708])
+    euler_offset = np.array([0, 0, 1.5708]) #for eastward
     location = np.array([4186284 , 834837, 4723172 ])
     
     print(camera_fp.get_cmd_time('utc') + ": ROTATE TO TARGET")
@@ -117,11 +117,12 @@ if __name__ == '__main__':
     #######################################
     print(camera_fp.get_cmd_time('utc') + ": Setting camera configurations")
 
-    camera_fp.printline('cam node 6')
+
     camera_fp.printline('rparam download 6 1 ')
-    camera_fp.printline('rparam set exposure-us 5000')
+    camera_fp.printline('rparam set exposure-us 100000')
     camera_fp.printline('rparam set gain-global 30000')
     camera_fp.printline('rparam send')
+    camera_fp.printline('cam node 6')
 
 
 
@@ -129,17 +130,17 @@ if __name__ == '__main__':
     #######################################
     t_new = int(t_aos)
     camera_fp.set_time(t_new)
-    camera_fp.printline('cam snap')
+    camera_fp.printline('cam snap -a')
     camera_fp.delay(3)
-    camera_fp.printline('cam snap')
+    camera_fp.printline('cam snap -a')
     camera_fp.delay(2)
-    camera_fp.printline('cam snap')
+    camera_fp.printline('cam snap -a')
     camera_fp.delay(2)
-    camera_fp.printline('cam snap -sti')
+    camera_fp.printline('cam snap -asti')
     camera_fp.delay(2)
-    camera_fp.printline('cam snap -sti')
+    camera_fp.printline('cam snap -asti')
     camera_fp.delay(2)
-    camera_fp.printline('cam snap -sti')
+    camera_fp.printline('cam snap -asti')
     print(camera_fp.get_cmd_time('utc') + ": Taking Pictures")
 
     # LOS
@@ -151,7 +152,7 @@ if __name__ == '__main__':
     camera_fp.delay(5)
     # Set Camera Configurations back
     #######################################
-    print(camera_fp.get_cmd_time('utc') + ": Set Camera Configuratins Back and Switch off camera")
+    print(camera_fp.get_cmd_time('utc') + ": Set Camera Configurations Back and Switch off camera")
 
     camera_fp.printline('eps output 1 0 0')
     camera_fp.delay(5)
